@@ -20,8 +20,8 @@ public class DemoService {
 
 
     @RequestMapping("/")
-    public Map sayHello(@RequestParam(name = "top") int top) throws Exception {
+    public String sayHello(@RequestParam(name = "top") int top) throws Exception {
         
-       return "hello ni Da Ya"
+       return "hello ni Da Ya";
     }
 }
