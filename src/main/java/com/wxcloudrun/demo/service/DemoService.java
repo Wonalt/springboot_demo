@@ -16,7 +16,7 @@ import java.net.URI;
 import java.util.Map;
 
 @RestController
-public class DemoService {
+public String DemoService {
 
 
     @RequestMapping("/")
