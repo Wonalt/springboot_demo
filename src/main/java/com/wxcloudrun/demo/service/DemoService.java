@@ -16,11 +16,11 @@ import java.net.URI;
 import java.util.Map;
 
 @RestController
-public String DemoService {
+public Class DemoService {
 
 
     @RequestMapping("/")
-    public Map sayHello(@RequestParam(name = "top") int top) throws Exception {
+    public String sayHello(@RequestParam(name = "top") int top) throws Exception {
         return "hellonidaYa";
     }
 }
